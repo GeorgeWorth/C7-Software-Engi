@@ -14,8 +14,9 @@ class Ward:
 		self.Cap = Cap		
 	
 class Staff:
-	def __init__(self, Id, FirName, SecName, Priv):
+	def __init__(self, Id, Job, FirName, SecName, Priv):
 		self.Id = Id
+		self.Job = Job
 		self.FirName = FirName
 		self.SecName =  SecName
 		self.Priv = Priv
@@ -26,17 +27,21 @@ class Staff:
 	
 ## Inheritance from Staff
 class Doctor(Staff):
-	def __init__(self, Id, Type, Ward, Team, Spec, FirName, SecName, Priv):
-		Staff.__init__(self, Id, FirName, SecName, Priv)
+	def __init__(self, Id, Job, Type, Ward, Team, Spec, FirName, SecName, Priv):
+		Staff.__init__(self, Id, Job, FirName, SecName, Priv)
 		self.Type = Type
 		self.Ward = Ward
 		self.Team = Team
 		self.Spec = Spec
 	
 	def GetEmployee(self):
-		return self.GetName() + ", " +  self.Type
+		return self.GetName() + ", " +  str(self.Type)
 	
 	
 
-x = Doctor("1", "1", "Steven", "4", "Cancer", "Brandon", "Slater", "1")
-print(x.GetEmployee())
+x1 = Doctor(1, "Doctor", "Resident", "Steven1", 4, "Cancer", "Brandon1", "Slater1", 1)
+x2 = Doctor(1, "Doctor", "Resident", "Steven2", 4, "Cancer", "Brandon2", "Slater2", 1)
+x3 = Doctor(1, "Doctor", "Resident", "Steven3", 4, "Cancer", "Brandon3", "Slater3", 1)
+x4 = Doctor(1, "Doctor", "Resident", "Steven4", 4, "Cancer", "Brandon4", "Slater4", 1)
+x5 = Doctor(1, "Doctor", "Resident", "Steven5", 4, "Cancer", "Brandon5", "Slater5", 1)
+print(x1.GetEmployee())
