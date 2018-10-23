@@ -1,0 +1,17 @@
+1540299026420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Student\\AppData\\Local\\Temp\\rust_mozprofile.a4O9qsgjGciG"
+1540299028180	Marionette	INFO	Listening on port 60038
+1540299028596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540299028622	Marionette	DEBUG	[6442450945] Frame script loaded
+1540299028630	Marionette	DEBUG	[6442450945] Frame script registered
+1540299028644	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540299028672	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: http://www.omdbapi.com/src/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540299028789	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoa[Parent 10064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4536, Chrome_Child[Child 11284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11284, Chrome_ChildThread] WARNING: pipe error: 109: file z[Child 11508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11508, Chrome_Ch1540299345896	Marionette	INFO	Stopped listening on port 59979
+[GPU 535
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
